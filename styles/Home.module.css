@@ -55,3 +55,21 @@
   font-size: 4rem;
   text-align: center !important;
 }
+
+.depend_item {
+  margin-right: 1rem;
+}
+
+.depend_item img {
+  width: 32px;
+  height: 32px;
+}
+
+.depend_item:last-child {
+  margin-right: 0;
+}
+
+.copyright_text {
+  padding: 2rem 0 0 1rem;
+  text-align: center !important;
+}

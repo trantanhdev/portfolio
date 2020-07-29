@@ -84,20 +84,39 @@ export default function Home() {
         <Container fluid="sm">
           <Row>
             <Col md={6}>
-              {" "}
-              <h5>This website was built using :</h5>
+              <h5 className="mb-3">This website was built using :</h5>
               <div className="d-flex flex-wrap">
-                <img
-                  src="/imgs/nextjs_logo.svg"
-                  width="32px"
-                  height="32px"
-                  className="mr-2"
-                />
-                <img
-                  src="/imgs/bootstrap_logo.png"
-                  width="32px"
-                  height="32px"
-                />
+                <a
+                  href="https://nextjs.org/"
+                  className={styles.depend_item}
+                  target="_blank"
+                >
+                  <img src="/imgs/nextjs_logo.svg" />
+                </a>
+
+                <a
+                  href="https://getbootstrap.com/"
+                  className={styles.depend_item}
+                  target="_blank"
+                >
+                  <img src="/imgs/bootstrap_logo_125_125.png" />
+                </a>
+
+                <a
+                  href="https://vercel.com/"
+                  className={styles.depend_item}
+                  target="_blank"
+                >
+                  <img src="/imgs/vercel_logo_100_100.jpg" />
+                </a>
+
+                <a
+                  href="https://trello.com/b/RKRk1364"
+                  className={styles.depend_item}
+                  target="_blank"
+                >
+                  <img src="/imgs/trello_logo_128_128.jpg" />
+                </a>
               </div>
             </Col>
             <Col md={6}>
@@ -117,8 +136,8 @@ export default function Home() {
           </Row>
           <Row>
             <Col>
-              <p className="text-center">
-                Copyright &copy; 2020, Anh Tran - Edmond, OK 73034
+              <p className={styles.copyright_text}>
+                Copyright &copy; 2020, Anh Tran - Edmond, OK 73034, USA
               </p>
             </Col>
           </Row>
