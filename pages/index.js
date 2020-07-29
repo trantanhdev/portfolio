@@ -1,65 +1,129 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faLinkedin,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Anh Tran, Junior Web Developer</title>
       </Head>
+      <header className={styles.header}>
+        <Container fluid="sm">
+          <h1 className={styles.text_digit}>Anh Tran</h1>
+          <h3 className="text-center mb-4">Junior Web Developer</h3>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+          <Row>
+            <Col md={4}></Col>
+            <Col md={4}>
+              <ul className={styles.social_links}>
+                <li className={styles.social_link_item}>
+                  <a
+                    href="https://www.youtube.com/channel/UCu-T5DT1mHx5sXP99wgJGJA/featured?view_as=subscriber"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon icon={faYoutube} />
+                  </a>
+                </li>
+                <li className={styles.social_link_item}>
+                  <a
+                    href="https://www.linkedin.com/in/anh-tran-916118125"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} />
+                  </a>
+                </li>
+                <li className={styles.social_link_item}>
+                  <a href="https://github.com/trantanhdev" target="_blank">
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </li>
+              </ul>
+            </Col>
+            <Col md={4}></Col>
+          </Row>
+        </Container>
+      </header>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+      <section className={styles.section}>
+        <Container fluid="sm">
+          <header className="section_header">
+            <h2>About</h2>
+          </header>
+          <Row>
+            <Col md={8}>
+              <p>Hello! welcome to my website.</p>
+              <p>
+                I am a Software Developer with strong inspiration in using
+                computer power to change human life. I interested not only
+                back-end but also front-end and Devops technologies.
+              </p>
+              <p>
+                Sorry because of poor content. I am working to bring you more
+                information about my career and projects. Thank you for your
+                visit to my page
+              </p>
+              <p>Anh Tran</p>
+            </Col>
+            <Col md={4}>
+              <img src="/imgs/working.jpg" width="300px" height="300px" />
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        <Container fluid="sm">
+          <Row>
+            <Col md={6}>
+              {" "}
+              <h5>This website was built using :</h5>
+              <div className="d-flex flex-wrap">
+                <img
+                  src="/imgs/nextjs_logo.svg"
+                  width="32px"
+                  height="32px"
+                  className="mr-2"
+                />
+                <img
+                  src="/imgs/bootstrap_logo.png"
+                  width="32px"
+                  height="32px"
+                />
+              </div>
+            </Col>
+            <Col md={6}>
+              <h2 className="mb-4">Contact Info</h2>
+              <p className="pl-4">
+                <strong>Location:</strong> Edmond, OK 73034
+              </p>
+              <p className="pl-4">
+                <strong>Phone:</strong> (405) 719 3402
+              </p>
+              <p className="pl-4">
+                <strong>Email:</strong> trantanhdev@gmail.com -
+                anhtransoftwaredev@gmail.com
+              </p>
+              <hr />
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <p className="text-center">
+                Copyright &copy; 2020, Anh Tran - Edmond, OK 73034
+              </p>
+            </Col>
+          </Row>
+        </Container>
       </footer>
     </div>
-  )
+  );
 }
