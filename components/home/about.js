@@ -5,7 +5,7 @@ export default function about() {
   return (
     <Section>
       <header className={style.header}>
-        <h2>About Me</h2>
+        <h2>About</h2>
       </header>
       <div className="row">
         <div className="col-md-7">

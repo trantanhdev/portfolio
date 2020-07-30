@@ -1,9 +1,21 @@
 import Section from "./section";
+import style from "./section.module.css";
 
 export default function Career() {
   return (
     <Section>
-      <h1>Career</h1>
+      <header className={style.header}>
+        <h2>Career</h2>
+      </header>
+      <div className="row">
+        <div className="col">
+          <ul>
+            <li>VNG Corporation</li>
+            <li>Souliee non-profit orginization</li>
+            <li>DXC Technology</li>
+          </ul>
+        </div>
+      </div>
     </Section>
   );
 }
