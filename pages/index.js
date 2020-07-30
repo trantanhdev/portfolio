@@ -93,7 +93,6 @@ export default function Home() {
                 >
                   <img src="/imgs/nextjs_logo.svg" />
                 </a>
-
                 <a
                   href="https://getbootstrap.com/"
                   className={styles.depend_item}
@@ -103,13 +102,19 @@ export default function Home() {
                 </a>
 
                 <a
+                  href="https://reactjs.org"
+                  className={styles.depend_item}
+                  target="_blank"
+                >
+                  <img src="/imgs/react_logo_113_113.png" />
+                </a>
+                <a
                   href="https://vercel.com/"
                   className={styles.depend_item}
                   target="_blank"
                 >
                   <img src="/imgs/vercel_logo_100_100.jpg" />
                 </a>
-
                 <a
                   href="https://trello.com/b/RKRk1364"
                   className={styles.depend_item}
