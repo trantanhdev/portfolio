@@ -22,7 +22,7 @@ export default function Navbar() {
           </li>
 
           <li className="nav-item mr-2">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#skill">
               Skills
             </a>
           </li>

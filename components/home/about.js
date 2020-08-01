@@ -31,8 +31,8 @@ export default function about() {
           </p>
           <p>Anh Tran</p>
         </div>
-        <div className="col-md-5 d-none d-sm-flex justify-content-center">
-          <img src="/imgs/working.jpg" width="200px" height="200px" />
+        <div className="col-md-5 d-none d-md-flex justify-content-center">
+          <img src="/imgs/working.jpg" width="60%" />
         </div>
       </div>
     </Section>
