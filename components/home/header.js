@@ -39,7 +39,7 @@ export default function Header() {
         {`
           .header {
             padding-top: 6rem;
-            background-color: #323031;
+            background-color: #0b132b;
             color: #fff;
           }
 
@@ -71,11 +71,11 @@ export default function Header() {
 
           .social_link_item a {
             font-size: 1.5rem;
-            color: gray;
+            color: #3a506b;
           }
 
           .social_link_item:hover > a {
-            color: black;
+            color: #0b132b;
           }
 
           .text_digit {

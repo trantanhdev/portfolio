@@ -70,7 +70,7 @@ export default function Footer() {
       <style jsx>
         {`
           .footer {
-            background-color: #323031;
+            background-color: #0b132b;
             color: #fff;
             padding-top: 2rem;
             padding-bottom: 1rem;

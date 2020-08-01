@@ -31,3 +31,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Navbar */
+.navbar-my {
+  background-color: #afbfd5;
+  color: #3a506b !important;
+  font-size: 1.25rem;
+}
+
+.navbar-my .active {
+  color: #0b132b !important;
+}
+
+.navbar-my .nav-item:hover a {
+  color: #0b132b !important;
+}
