@@ -3,17 +3,17 @@
   min-height: 100vh;
 }
 
-.bg_wh {
+.theme_white {
   background-color: #ffffff;
   color: #383c42;
 }
 
-.bg_gr {
+.theme_grey {
   background-color: #e9eaec;
   color: #2f3337;
 }
 
-.bg_pr {
+.theme_primary {
   background-color: #dfebf6;
   color: #1c3e5f;
 }

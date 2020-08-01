@@ -4,7 +4,7 @@ export default function Section(props) {
   return (
     <section
       className={`${styles.section} ${
-        props.bg ? styles[props.bg] : styles.bg_wh
+        props.theme ? styles["theme_" + props.theme] : styles.theme_white
       }`}
       id={props.id}
     >

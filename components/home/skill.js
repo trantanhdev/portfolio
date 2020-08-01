@@ -3,7 +3,7 @@ import styles from "./skill.module.css";
 
 export default function Skill(props) {
   return (
-    <Section id="skill" bg="bg_gr">
+    <Section id="skill" theme="grey">
       <h2 className="header">Skills</h2>
 
       <div className="row pt-4 pb-4">
