@@ -1,0 +1,15 @@
+.my_navbar {
+  background-color: #b0cee8;
+  color: #1c3e5f !important;
+  font-size: 1.25rem;
+  padding: 0;
+  line-height: 2rem;
+}
+
+.my_nav_item:hover {
+  background-color: #808489;
+}
+
+.my_nav_link:hover {
+  color: #ffffff !important;
+}
