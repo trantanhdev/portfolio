@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-my navbar-expand-md">
+    <nav className="navbar navbar-my navbar-expand-md sticky-top">
       <button
         className="navbar-toggler"
         type="button"
