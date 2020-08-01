@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav m-auto">
           <li className="nav-item mr-2">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#about">
               About
             </a>
           </li>
