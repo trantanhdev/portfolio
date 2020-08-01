@@ -10,7 +10,7 @@ export default function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon"></span>
+        <i className="fa fa-bars fa-lg py-1"></i>
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
