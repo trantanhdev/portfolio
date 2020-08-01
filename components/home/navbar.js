@@ -17,6 +17,12 @@ export default function Navbar() {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav m-auto">
+          <li className={`nav-item ${styles.my_nav_item}`}>
+            <a className={`nav-link ${styles.my_nav_link}`} href="#">
+              Home
+            </a>
+          </li>
+
           <li className={`nav-item mr-2 ${styles.my_nav_item}`}>
             <a className={`nav-link ${styles.my_nav_link}`} href="#about">
               About
@@ -28,11 +34,11 @@ export default function Navbar() {
             </a>
           </li>
 
-          <li className={`nav-item ${styles.my_nav_item}`}>
+          {/* <li className={`nav-item ${styles.my_nav_item}`}>
             <a className={`nav-link ${styles.my_nav_link}`} href="#about">
               Actions
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

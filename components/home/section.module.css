@@ -5,14 +5,17 @@
 
 .bg_wh {
   background-color: #ffffff;
+  color: #383c42;
 }
 
 .bg_gr {
   background-color: #e9eaec;
+  color: #2f3337;
 }
 
 .bg_pr {
-  background-color: #c2fff6;
+  background-color: #dfebf6;
+  color: #1c3e5f;
 }
 
 .header {

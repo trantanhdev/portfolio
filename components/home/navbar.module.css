@@ -6,6 +6,15 @@
   line-height: 2rem;
 }
 
+.my_nav_item {
+  min-width: 100px;
+}
+
+.my_nav_link {
+  min-width: 100px;
+  text-align: center;
+}
+
 .my_nav_item:hover {
   background-color: #1c3e5f;
 }
