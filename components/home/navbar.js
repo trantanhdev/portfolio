@@ -15,13 +15,13 @@ export default function Navbar() {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav m-auto">
-          <li className="nav-item">
+          <li className="nav-item mr-2">
             <a className="nav-link" href="#">
               About
             </a>
           </li>
 
-          <li className="nav-item">
+          <li className="nav-item mr-2">
             <a className="nav-link" href="#">
               Skills
             </a>
