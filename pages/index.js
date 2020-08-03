@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../components/home/header";
 import Navbar from "../components/home/navbar";
 import About from "../components/home/about";
+import Project from "../components/home/project";
 import Skill from "../components/home/skill";
 import Footer from "../components/home/footer";
 
@@ -23,6 +24,8 @@ export default function Home() {
       <About />
 
       <Skill />
+
+      <Project />
 
       <Footer />
     </div>

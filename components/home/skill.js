@@ -15,10 +15,11 @@ export default function Skill(props) {
                 className={`list-group list-group-flush ${styles.group} m-auto`}
               >
                 <li className="list-group-item text-center">HTM5</li>
-                <li className="list-group-item text-center">CSS</li>
+                <li className="list-group-item text-center">CSS3</li>
+                <li className="list-group-item text-center">Bootstrap</li>
                 <li className="list-group-item text-center">Javascript</li>
                 <li className="list-group-item text-center">JQuery</li>
-                <li className="list-group-item text-center">React</li>
+                <li className="list-group-item text-center">ReactJS</li>
               </ul>
             </div>
           </div>
@@ -52,6 +53,9 @@ export default function Skill(props) {
                 <li className="list-group-item text-center">Memcached</li>
                 <li className="list-group-item text-center">Elasticsearch</li>
                 <li className="list-group-item text-center">DB2</li>
+                <li className="list-group-item text-center">
+                  Azure Cloud Service
+                </li>
               </ul>
             </div>
           </div>

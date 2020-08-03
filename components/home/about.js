@@ -13,21 +13,23 @@ export default function about() {
 
           <p className={style.paragraph}>
             I am a Junior Web Developer with 4 years of experience working in
-            software developement industry. My have develop software application
-            in many domains: finance, entertainment and charity.
+            software developement industry in many domains: finance,
+            entertainment and charity. My passion is using my talents to develop
+            and deliver high quality softwares to server humanlife.
           </p>
 
           <p className={style.paragraph}>
             As a full stack developer, I can work in both front-end and back-end
-            in software development process. I also have some experience with
-            Cloud Service: Azure Cloud Service and developed a Android mobile
-            application with Google ARCore.
+            in whole software development cycle. Always keep the spirit of a
+            self-starter, I keen of research new skills to improve my skills:
+            Cloud service, NodeJS, ReactJS, etc.
           </p>
 
           <p className={style.paragraph}>
             This website is my application when I am learning ReactJS with
-            NextJS framework and deploy it on Vercel provider. Thank you for
-            your visit and hope to see you in future.
+            NextJS framework and deploy it on Vercel provider. I will make it
+            better everyday. Thank you for your visit and hope to see you in
+            future.
           </p>
           <p>Anh Tran</p>
         </div>

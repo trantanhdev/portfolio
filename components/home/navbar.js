@@ -28,9 +28,16 @@ export default function Navbar() {
               About
             </a>
           </li>
+
           <li className={`nav-item mr-2 ${styles.my_nav_item}`}>
             <a className={`nav-link ${styles.my_nav_link}`} href="#skill">
               Skills
+            </a>
+          </li>
+
+          <li className={`nav-item mr-2 ${styles.my_nav_item}`}>
+            <a className={`nav-link ${styles.my_nav_link}`} href="#project">
+              Projects
             </a>
           </li>
 

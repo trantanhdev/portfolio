@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Happy Furniture",
+    "desc": "This is my research project at my university. In a scenario of developing mobile application that improve user interaction with Augmented Reality.",
+    "languages": ["Java"],
+    "tools": ["Android Studio", "Google ARCore SDK", "Google Sceneform"],
+    "urls": [
+      {
+        "type": "ytb",
+        "url": "https://www.youtube.com/watch?v=t3dtTVBavFs&list=PLixdYPdE9rJGuHFjUSTFJaYRMQjxdbtgx"
+      },
+      {
+        "type": "gth",
+        "url": "https://github.com/trantanhdev/happy_furniture"
+      }
+    ],
+    "buildAt": "May 2020"
+  }
+]
