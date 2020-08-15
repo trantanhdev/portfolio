@@ -40,12 +40,6 @@ export default function Navbar() {
               Projects
             </a>
           </li>
-
-          {/* <li className={`nav-item ${styles.my_nav_item}`}>
-            <a className={`nav-link ${styles.my_nav_link}`} href="#about">
-              Actions
-            </a>
-          </li> */}
         </ul>
       </div>
     </nav>

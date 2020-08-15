@@ -12,7 +12,7 @@ export default function about() {
           <p>Hello! welcome to my website.</p>
 
           <p className={style.paragraph}>
-            I am a Junior Web Developer with 4 years of experience working in
+            I am a Software Developer with 4 years of experience working in
             software developement industry in many domains: finance,
             entertainment and charity. My passion is using my talents to develop
             and deliver high quality softwares to server humanlife.

@@ -5,7 +5,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className="container-md">
         <h1 className={styles.text_digit}>Anh Tran</h1>
-        <h3 className="text-center mb-4">Junior Web Developer</h3>
+        <h3 className="text-center mb-4">Software Developer</h3>
 
         <div className="row">
           <div className="col-md-4"></div>
